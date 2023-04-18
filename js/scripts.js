@@ -41,7 +41,7 @@ const type = `${size}-${lodging}`// interloped type
  /** 
   *  i fixed calling objects sytax, 
   *fixed calling syntax object rent,
-  * and added const startingAfterTax to the equation*/
+  * and added const startingAfterTax to the balance equation*/
 const balance = startingAfterTax - expenses.transport - expenses.food - expenses.rent[type]
 
 const finalOutCome = balance.toFixed(2) //making new variable to make 2 decimal places
